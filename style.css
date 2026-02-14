@@ -1,0 +1,23 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px;
+    margin: 0 auto;
+    border: 3px solid black;
+}
+
+.grid-square {
+    box-sizing: border-box;
+}
+
+.btn-container {
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+button {
+    padding: 8px;
+    cursor: pointer;
+}
+
+
