@@ -8,7 +8,8 @@ btn.addEventListener("click", (e) => {
 
     let input = prompt("Enter the number of squares per side for the new grid (1 - 100)");
 
-    while (typeof +input != "number" || 
+    while ( String(+input) == "NaN" || 
+        typeof +input != "number" || 
         +input > 100 ||
         +input < 1
     ) {
